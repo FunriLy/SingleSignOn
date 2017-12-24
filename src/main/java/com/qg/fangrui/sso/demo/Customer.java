@@ -9,12 +9,12 @@ import lombok.Value;
  * From small beginnings comes great things.
  */
 @Value
-public class Customer {
+class Customer {
 
-    private long id;
+    private int id;
     private String city;
     private String name;
-    private  String street;
-    private  String zip;
-    private  String country;
+    private String street;
+    private String zip;
+    private String country;
 }
